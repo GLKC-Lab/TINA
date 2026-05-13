@@ -1,4 +1,4 @@
-# TINA-FIJI
+# TINA
 TINA: A workflow for microscopy image optimisation and batch preprocessingprior to quantitative analysis.
 
 Description:
