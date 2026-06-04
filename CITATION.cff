@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TINA: A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis"
+version: 1.0.0
+date-released: 2026-05-14
+license: MIT
+repository-code: "https://github.com/GLKC-Lab/TINA"
+authors:
+  - family-names: Kennedy-Clark
+    given-names: G. L.
+    affiliation: "University of Newcastle, Australia"
+    orcid: "https://orcid.org/0009-0004-3440-9020"
+  - family-names: Jobling
+    given-names: Phillip
+    affiliation: "School of Biomedical Sciences and Pharmacy, University of Newcastle, Australia"
+abstract: "TINA is an open-source ImageJ/FIJI workflow designed to support reproducible microscopy image preprocessing through guided signal refinement, standardised batch processing, and export consistency prior to downstream segmentation and quantitative analysis. Functionality includes signal refinement workflows for background correction calibration, signal standardisation for batch preprocessing, image polarity standardisation, optional median filtering for noise reduction, reproducibility-focused processing logs, and calibration metadata preservation. Designed for broad compatibility across microscopy modalities including immunofluorescence, brightfield, histological, and other biological imaging applications."
+keywords:
+  - ImageJ
+  - FIJI
+  - microscopy
+  - image preprocessing
+  - batch processing
+  - image analysis
+  - bioimage informatics
+  - background correction
+  - immunofluorescence
