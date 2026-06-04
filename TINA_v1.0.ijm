@@ -22,8 +22,12 @@
 // and other biological imaging applications.
 //
 // Developed using FIJI / ImageJ macro language.
-// Authors: GL Kennedy-Clark, P. Jobling
-// University of Newcastle, Australia
+//
+// Authors:    GL Kennedy-Clark, P. Jobling
+//             University of Newcastle, Australia
+// Contact:    https://github.com/GLKC-Lab/TINA
+// DOI:        https://doi.org/10.5281/zenodo.20541754
+// Licence:    MIT
 // ============================================================================
 // Version: 1.0
 // ============================================================================
