@@ -3,7 +3,7 @@
 **A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis**
 
 Version 1.0 | GL Kennedy-Clark & P. Jobling | GLKC Lab
-
+DOI: 10.5281/zenodo.20541754
 [GitHub Repository](https://github.com/GLKC-Lab/TINA)
 
 ---
