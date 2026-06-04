@@ -22,6 +22,8 @@
 // and other biological imaging applications.
 //
 // Developed using FIJI / ImageJ macro language.
+// Authors: GL Kennedy-Clark, P. Jobling
+// University of Newcastle, Australia
 // ============================================================================
 // Version: 1.0
 // ============================================================================
