@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1237413039.svg)](https://doi.org/10.5281/zenodo.20541753)
+
 # TINA
 TINA: A workflow for microscopy image optimisation and batch preprocessingprior to quantitative analysis.
 
