@@ -34,6 +34,14 @@ TINA is designed for broad compatibility across microscopy modalities, including
 
 ---
 
+## Video Overview
+
+Watch a brief introduction to the TINA workflows and user interface:
+
+https://youtu.be/o-pia3ybPT0
+
+---
+
 ## Installation
 
 1. Download `TINA_v1.0.ijm` from this repository
