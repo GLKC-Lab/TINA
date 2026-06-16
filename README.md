@@ -122,7 +122,7 @@ Use this workflow after completing Signal Refinement to batch-process your full 
 
 If you use TINA in your research, please cite:
 
-> Kennedy-Clark, G. L. & Jobling, P. (2026). *TINA: A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Kennedy-Clark, G. L. & Jobling, P. (2026). *TINA: A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.20541754
 
 A `CITATION.cff` file is included in this repository for automated citation tools.
 
