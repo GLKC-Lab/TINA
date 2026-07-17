@@ -67,7 +67,7 @@ Use this workflow first to calibrate your background correction settings using a
 
 **What it does:**
 
-1. Prompts you to select 2–7 representative TIFF test images.
+1. Prompts you to select 1–7 representative TIFF test images.
 2. For each round, you specify rolling ball radius (RBR) and correction options.
 3. TINA generates a processed preview (with your chosen LUT) and a binary preview for each image.
 4. Optional synchronised comparison allows linked inspection of matching image regions.
