@@ -2,7 +2,7 @@
 
 **A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis**
 
-Version 1.0 | GL Kennedy-Clark & P. Jobling | GLKC Lab
+Version 1.0.1 | GL Kennedy-Clark & P. Jobling | GLKC Lab
 
 DOI: 10.5281/zenodo.20541754
 
@@ -98,10 +98,10 @@ You point TINA at a folder of TIFF images and enter the settings you confirmed i
 
 ### 3.2 Installing TINA
 
-1. Download `TINA_v1.0.ijm` from the [GitHub repository](https://github.com/GLKC-Lab/TINA)
+1. Download `TINA_v1.0.1.ijm` from the [GitHub repository](https://github.com/GLKC-Lab/TINA)
 2. Open FIJI
-3. **Option A — drag and drop:** drag `TINA_v1.0.ijm` directly onto the FIJI toolbar. The macro editor will open. Click **Run**.
-4. **Option B — menu:** go to **Plugins → Macros → Run…** and navigate to `TINA_v1.0.ijm`.
+3. **Option A — drag and drop:** drag `TINA_v1.0.1.ijm` directly onto the FIJI toolbar. The macro editor will open. Click **Run**.
+4. **Option B — menu:** go to **Plugins → Macros → Run…** and navigate to `TINA_v1.0.1.ijm`.
 
 No additional plugins or dependencies are required. TINA uses only built-in ImageJ/FIJI functions.
 
@@ -121,7 +121,7 @@ Before running TINA, organise your files as follows:
 ### 4.1 Launching TINA
 
 1. Open FIJI.
-2. Run `TINA_v1.0.ijm` using one of the methods described in [Section 3.2](#32-installing-tina).
+2. Run `TINA_v1.0.1.ijm` using one of the methods described in [Section 3.2](#32-installing-tina).
 3. The TINA launch dialog will appear. Select the workflow you want to run from the dropdown menu.
 
 Select **Signal Refinement Workflow** if this is the first time you are working with this image set, or whenever you are using a new imaging protocol. Select **Signal Standardisation Workflow** once you have confirmed your settings in Workflow 1.
@@ -169,12 +169,12 @@ TINA will open two preview images for each of your test images:
 - **Processed image:** your image after background correction, shown in your chosen LUT. Look at the background regions: do they appear uniformly dark/blank? Is the signal in the foreground still present and well-defined?
 - **Binary image:** the result of automatic thresholding applied to the processed image. This shows what a segmentation algorithm would identify as signal (white) versus background (black). This is often the most informative view for assessing correction quality.
 
-If you enabled Synchronize Windows, click **Synchronize All** in the sync panel to link cursor positions across all open windows.
+If you enabled Synchronize Windows, TINA positions the controller for easier access. For the most useful linked comparison, enable **Sync Cursor**, **Image Coordinates**, and **Image Scaling**, then click **Synchronize All**. You can pan or zoom one preview while the corresponding region remains aligned in the other preview windows.
 
 > 🔍 **What to look for in the binary image**
 > The binary image is your most direct indicator of correction quality. You want genuine signal (cells, fibres, labelled structures) to appear white, and background to appear black. If large regions of background are white (noisy), your correction may be insufficient. If your biological structures are partially or fully black (absent), your correction may be too aggressive.
 
-When you have finished inspecting the images, click **OK** in the "Inspect preview images" prompt.
+The inspection guidance remains visible while the preview windows are interactive. When inspection is complete, click **OK - Continue** to proceed to the background-correction assessment.
 
 #### Step 6 — Assess each image
 
@@ -188,14 +188,14 @@ For each test image, TINA will show an assessment dialog. Select the option that
 
 #### Step 7 — Continue or finish calibration
 
-After assessing all test images, TINA will show a round summary and ask whether you want to test another setting. Repeat Steps 4–6 with a different rolling ball radius or option combination as many times as needed.
+After assessing all test images, TINA will show a round summary beside the **Continue Signal Optimisation?** menu. Choose **Yes - Trial another combination of signal optimisation settings** to repeat Steps 4–6, or **No - I have chosen my signal optimisation settings** to finish calibration.
 
 > 💡 **Tip: comparing rounds**
 > From the second calibration round onwards, TINA will open the previous round's preview images alongside the current ones. This direct comparison is often the fastest way to judge whether your adjustment improved things.
 
 #### Step 8 — Record your final settings
 
-When you select "No" at the continue prompt, TINA will display a final settings dialog. Enter the rolling ball radius and options you have chosen. These values are saved to the signal refinement log. They are also what you will enter manually in Workflow 2.
+When you select **No - I have chosen my signal optimisation settings**, TINA will display a final settings dialog. Enter the rolling ball radius and options you have chosen. These values are saved to the signal refinement log. They are also what you will enter manually in Workflow 2.
 
 TINA will display a completion message and confirm the location of the output folder. Your preview images and log are now saved.
 
@@ -300,7 +300,7 @@ As a general rule: the RBR should be at least as large as the largest object you
 
 If you use TINA in your research, please cite:
 
-> Kennedy-Clark, G.L. & Jobling, P. (2026). *TINA: A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Kennedy-Clark, G.L. & Jobling, P. (2026). *TINA: A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis* (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
 
 A `CITATION.cff` file is included in the GitHub repository for citation manager compatibility.
 
@@ -308,4 +308,4 @@ TINA is open-source software released under the MIT Licence.
 
 ---
 
-*TINA v1.0 — User Guide | GL Kennedy-Clark & P. Jobling (GLKC Lab) | [https://github.com/GLKC-Lab/TINA](https://github.com/GLKC-Lab/TINA)*
+*TINA v1.0.1 — User Guide | GL Kennedy-Clark & P. Jobling (GLKC Lab) | [https://github.com/GLKC-Lab/TINA](https://github.com/GLKC-Lab/TINA)*
