@@ -300,7 +300,7 @@ As a general rule: the RBR should be at least as large as the largest object you
 
 If you use TINA in your research, please cite:
 
-> Kennedy-Clark, G.L. & Jobling, P. (2026). *TINA: A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis* (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Kennedy-Clark, G.L. & Jobling, P. (2026). *TINA: A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis* (v1.0.1). Zenodo. [DOI: 10.5281/zenodo.20541754](https://doi.org/10.5281/zenodo.20541754) 
 
 A `CITATION.cff` file is included in the GitHub repository for citation manager compatibility.
 
