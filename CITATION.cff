@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "TINA: A workflow for microscopy image optimisation and batch preprocessing prior to quantitative analysis"
-version: 1.0.0
-date-released: 2026-05-14
+version: 1.0.1
+date-released: 2026-07-17
 license: MIT
 repository-code: "https://github.com/GLKC-Lab/TINA"
 authors:
